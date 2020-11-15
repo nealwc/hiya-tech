@@ -1,20 +1,20 @@
 # Hiya-tech
 
+*Forked from [Hiya-tech](https://github.com/nealwc/hiya)*
+
 Hiya-tech is a MERN stack apllication that's deployed through Netlify.
 
 ## About
 
-Hiya-tech is a website that allows users to buy and trade technology items without any issue. 
-
-This website is a practical marketplace where users can post an item to sell/trade or offer a services related to technology. We wanted to create a more specified service that would offer users a more focused experience than other sites such as Craigslist or Facebook Marketplace. 
+A peer-to-peer marketplace for used tech equipment. The shopping UX is handled by a client-side React app on top of an Express server. User-supplied data and images are housed in the cloud with mongoDB and cloudinary.
 
 ## Deployment (Netlify)
 
-[Hiya-tech](https://hiya-tech.herokuapp.com/)
+[Hiya-tech]()
 
 ## Usage
 
-First off make sure you have a local version of MongoDB running on your machine. This project will make a local database for you called `appDB`.
+With a local MongoDB server running on your machine. This project will make a local database called `appDB`.
 
 ```
 mongod
@@ -26,13 +26,13 @@ Start by installing front and backend dependencies. While in the root directory,
 npm install
 ```
 
-After all installations complete, run the following command in your terminal:
+After all of the node packages have compeleted installing, run the following command in your terminal:
 
 ```
 npm start
 ```
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+That's it, Hiya-tech will be running on <http://localhost:3000>. The Express server will intercept any AJAX requests from the client.
 
 ## Contributing
 - Carter Neal - [nealwc](https://github.com/nealwc)
