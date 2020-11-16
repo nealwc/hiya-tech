@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Row, Col, Container, CardColumns, Button } from 'react-bootstrap';
+import { Card, Row, Col, Container, CardColumns } from 'react-bootstrap';
 import moment from 'moment';
 import TabsBar from '../components/Tabs'
 
 import * as API from '../utils/API';
-
-import Logo from '../utils/Photo/hiyadraft2fxd.png';
 
 function AllItems() {
   const [items, setItems] = useState([]);

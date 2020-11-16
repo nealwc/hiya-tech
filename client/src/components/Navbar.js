@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab, Image} from 'react-bootstrap';
 import SignUpForm from './SignupForm';
 import LoginForm from './LoginForm';
-// import Card from './Card';
 
 import '../index.css';
 

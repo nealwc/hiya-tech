@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Form, Button, Alert, Card } from 'react-bootstrap';
+import { Form, Button, Alert } from 'react-bootstrap';
 
 import UserInfoContext from '../utils/UserInfoContext';
 import { createUser } from '../utils/API';
